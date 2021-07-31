@@ -1,0 +1,67 @@
+
+
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main(int argc, const char * argv[]) {
+    char array[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L',
+
+        'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'W', 'Z', 'I', 'O'};
+
+    int F, C;
+
+    int i = 0;
+
+    char FT;
+
+    char I[11];
+
+    fgets(I,sizeof(I),stdin);
+
+        C = 0;
+
+        FT = I[0];
+
+        I[0] = '0';
+
+        F = atoi(I);
+
+        for(i = 0;i < 26;i ++)
+
+            if(array[i] == FT)
+
+            {
+                C = i + 10;
+
+                break;
+
+            }
+
+        C =C % 10 * 9 + C / 10;
+
+       C = C + F % 10;
+
+       F /= 10;
+
+        for(i = 1;i < 9;i ++)
+
+        {
+            C = C + F % 10 * i;
+
+            F = F / 10;
+
+        }
+
+        if(C % 10 == 0)
+
+            printf("real\n");
+
+        else
+
+            printf("fake\n");
+
+    return 0;
+
+}
