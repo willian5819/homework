@@ -1,0 +1,33 @@
+
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+
+
+
+    int main()
+    {
+        
+    int password[4];
+    int test[4];
+    int temp[4]; 
+    int quiz;
+    
+    
+    
+    while (scanf("%d%d%d%d", &password[0], &password[1], &password[2], &password[3]) != EOF)
+    {
+        
+        
+    }
+        
+        
+        
+        
+        
+        
+        
