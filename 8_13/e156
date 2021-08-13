@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+
+    int ans;
+    int n;
+
+
+
+    int L()
+    {
+
+    return (ans += n ) && --n && L();
+    }
+
+
+
+
+
+
+
+
+
+    int main()
+    {
+
+        scanf("%d",&n);
+
+        L();
+
+        printf("%d",ans);
+
+
+        return 0;
+
+    }
+
+
+
+
