@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+    int gb;
+    int r;
+    int sp;
+    int p1 = 250GB;
+    int p2 = 400GB;
+    int p3 = 500GB;
+    int p4 = 750GB;
+    
+
+    int r1(gb>p1)
+
+    {
+      gb2 = gb/2;
+      
+      
+        
+        
+        
+    }
+
+
+
+
+
+
+    int main()
+
+    {
+
+       
+        scanf ("%.f %d",&gb,&r);
+    
+        if(gb)
+
+
+        printf ("Qty: %r Disk: %gb2 Price: $%p",r,gb2,sp);
+
+
+
+    return 0;
+    }
