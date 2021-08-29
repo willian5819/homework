@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main()
+{
+    char array[27] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L','M', 'N', 'P', 'Q', 'O', 'R', 'S', 'T', 'U', 'V','W', 'X', 'Y' , 'Z'};
+
+    int we = 0 ;
+    int re = 0 ;
+
+
+    int aa,ab,ac,ad,ae,af,ag,ah;
+
+    scanf("%s,we aa ab ac ad ae af ag ah)
+
+
+    if( we=array[1]){
+
+    re = 1 + 0*9+aa*8+ab*7+ac*6+ad*5+ae*4+af*3+ag*2+ah;
+
+    printf("real\n");
+}
+
+   else {
+
+
+    printf("fake\n");
+
+   }
+
+
+
+
+
+
+
+    return 0;
+}
